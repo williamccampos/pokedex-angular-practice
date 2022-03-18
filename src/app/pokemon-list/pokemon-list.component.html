@@ -1,1 +1,5 @@
-<p>pokemon-list works!</p>
+
+<app-pokemon-card
+  *ngFor="let pokemon of pokemonService.pokemons"
+  [pokemon]="pokemon"></app-pokemon-card>
+

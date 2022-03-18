@@ -1,0 +1,24 @@
+<link href="//db.onlinewebfonts.com/c/6e1ef15c406d6f6aca64916d713fae18?family=Flexo" rel="stylesheet" type="text/css"/>
+<div class="pokemon-card" *ngIf="pokemon">
+  <div class="pokemon-card__image">
+    <img
+    [src]="getPokemonImage(pokemon)"
+    alt="Pokemon Image">
+  </div>
+
+  <div class="pokemon-card__number">
+    N˚ {{ getPokemonNumber(pokemon) }}
+  </div>
+
+  <div class="pokemon-card__name">
+    {{ pokemon.name }}
+  </div>
+
+  <div class="pokemon-card__types">
+    <div class="pokemon-card__type"
+        *ngFor="let type of pokemon.types"
+        [class]="'pokemon-card__type--' + type.toLowerCase()">
+      {{ type }}
+    </div>
+  </div>
+</div>
