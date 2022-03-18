@@ -2,7 +2,7 @@
 
 O projeto foi criado em  [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
 
-O intuito do pojeto é aprimorar o conhecimento em Angular, Typescript e SASS.
+O intuito do projeto é aprimorar o conhecimento em Angular, Typescript e SASS.
 ## Como usar
 
 Clone o projeto com a url `https://github.com/williamccampos/pokedex-angular-practice.git`
